@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./style/img/logo2-1.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <section class="leftItens">
+            <style type="text/css">
+                h1{
+                    color: black;
+                    /* Poderia usar:;
+                    color: #ff0000;*/
+                    /* Poderia usar:;
+                    color: rgb(255, 0, 0);*/
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 200%;
+                    text-align: center;
+                }
+                </style>
+                
+                   
+               
+           
+          
+            <h1 class="title"> <img src="./style/img/alura.PNG" alt="MDN logo">Decodificador de Texto</h1>
+            <div class="textLocal">
+                <input type="text" id="digiteTexto" placeholder="Digite seu texto...">
+            </div>
+            <div class="boxButton">
+                <div>
+                    <style type="text/css">
+                        p{
+                        color: black;
+                        font-family: Arial, Helvetica, sans-serif;
+                        }
+                        
+                    </style>
+                    <p id="textoVetor" class="alertVetor"><span id="iconeVetor" class="vetor">!</span>Não são pertidas letras maiúsculas ou acento.</p>
+
+                    <button type="submit" onclick="criptografar()" id="btn_criptografar"
+                        class="buttonCriptografar">Criptografar</button>
+
+                    <button type="submit" onclick="descriptografar()"
+                        class="buttonDescriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        <div>
+            <div id="area" class="boxArea">
+                
+                <div id="areaDecodificacao" class="localTexto">
+                </div>
+                <div id="secondArea"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
