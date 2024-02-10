@@ -1,14 +1,16 @@
 # DESAFIO DECODIFICADOR TURMA 6 ONE + ALURA
 
 ## Descrição do desafio
+Este desafio visa construir um decodificador de texto utilizando JavaScript, HTML E CSS
 
+Abaixo estão as imagens do exemplo criado no FIGMA e tela inicial
 
 ##
 
 ## Imagem do FIGMA
 
 <p align="center">
-  <img src="figma.png" width="750" title="FIGMA">
+  <img src="img.png" width="750" title="FIGMA">
   
 </p>
 
